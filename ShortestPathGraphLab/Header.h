@@ -12,7 +12,7 @@ struct node
 {
 	string cityname; //name of this city
 	double d; //distance of this city 
-	int degree; //degree?
+	int degree; //degree
 	color vcolor; //color of node/v
 	node* parent; //to set the parent node
 	node* adj; //links to the adjacent city
@@ -32,8 +32,6 @@ public:
 
 	adjlist* list; //adjacency list to show the connection of edges
 	node* start; //list to connect the nodes with information to one another
-
-	//how about an array to store the shortes path? 
 
 	int nodes;
 	int edges;
